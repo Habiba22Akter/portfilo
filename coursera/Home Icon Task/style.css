@@ -1,0 +1,55 @@
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.leave-recommendation {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.leave-recommendation input,
+.leave-recommendation textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.subarr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.leave-recommendation button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.up-arrow {
+    /* position: fixed; */
+    bottom: 20px;
+    right: 20px;
+    display: inline;
+    background-color: violet;
+    border: 2px solid red;
+
+
+}
+
+.up-arrow img {
+    width: 20px;
+}
